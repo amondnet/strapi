@@ -1,6 +1,6 @@
 {
-  "name": "strapi-plugin-content-type-builder",
-  "version": "3.0.0-beta.18.7",
+  "name": "@amondnet/strapi-plugin-content-type-builder",
+  "version": "3.0.0-beta.18.7-SNAPSHOT.2",
   "description": "Strapi plugin to create content type (API).",
   "strapi": {
     "name": "Content Type Builder",
@@ -46,7 +46,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/strapi/strapi.git"
+    "url": "git://github.com/amondnet/strapi.git"
   },
   "engines": {
     "node": ">=10.0.0",
