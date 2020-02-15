@@ -24,6 +24,7 @@ const DEFAULT_TYPES = [
   'datetime',
   'timestamp',
   'boolean',
+  'uuid',
 ];
 
 const FORBIDDEN_ATTRIBUTE_NAMES = ['__component', '__contentType'];

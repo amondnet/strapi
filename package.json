@@ -1,6 +1,8 @@
 {
   "private": true,
-  "dependencies": {},
+  "dependencies": {
+    "rollup-plugin-babel": "^4.3.3"
+  },
   "devDependencies": {
     "@testing-library/jest-dom": "^4.0.0",
     "@testing-library/react": "^9.1.0",
@@ -35,7 +37,6 @@
     "react-test-renderer": "^16.9.0",
     "request": "^2.87.0",
     "request-promise-native": "^1.0.7",
-    "rimraf": "3.0.0",
     "snyk": "^1.99.0",
     "wait-on": "^3.2.0",
     "yargs": "^13.2.2",

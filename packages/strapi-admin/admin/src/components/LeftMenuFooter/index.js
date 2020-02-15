@@ -47,11 +47,11 @@ function LeftMenuFooter({ version, ...rest }) {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Strapi
+          Dietfriends
         </a>
         &nbsp;
         <a
-          href={`https://github.com/strapi/strapi/releases/tag/v${version}`}
+          href={`https://github.com/amondnet/strapi/releases/tag/v${version}`}
           key="github"
           target="_blank"
           rel="noopener noreferrer"

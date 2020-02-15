@@ -55,7 +55,7 @@ function LeftMenuLink(props) {
   const link = props.destination.includes('http') ? (
     <a
       className={`link ${isLinkActive ? 'linkActive' : ''}`}
-      href={props.destination}
+      href={props.destination.replace('@amondnet/', '')}
       target="_blank"
       rel="noopener noreferrer"
     >
@@ -66,7 +66,7 @@ function LeftMenuLink(props) {
     <Link
       className={`link ${isLinkActive ? 'linkActive' : ''}`}
       to={{
-        pathname: props.destination,
+        pathname: props.destination.replace('@amondnet/', ''),
         search: props.source ? `?source=${props.source}` : '',
       }}
     >

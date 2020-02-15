@@ -22,6 +22,7 @@ const getTypeShape = (attribute, { modelType } = {}) => {
     /**
      * scalar types
      */
+    case 'uuid':
     case 'string':
     case 'text': {
       return {
