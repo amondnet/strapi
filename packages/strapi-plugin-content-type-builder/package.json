@@ -1,5 +1,5 @@
 {
-  "name": "@amondnet/strapi-plugin-content-type-builder",
+  "name": "strapi-plugin-content-type-builder-uuid",
   "version": "3.0.0-beta.18.7-SNAPSHOT.2",
   "description": "Strapi plugin to create content type (API).",
   "strapi": {
