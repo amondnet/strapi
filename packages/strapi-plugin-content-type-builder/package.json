@@ -1,6 +1,6 @@
 {
-  "name": "strapi-plugin-content-type-builder-uuid",
-  "version": "3.0.0-beta.18.7-SNAPSHOT.2",
+  "name": "strapi-plugin-content-type-builder",
+  "version": "3.0.0-beta.18.7-SNAPSHOT.3",
   "description": "Strapi plugin to create content type (API).",
   "strapi": {
     "name": "Content Type Builder",
@@ -53,5 +53,8 @@
     "npm": ">=6.0.0"
   },
   "license": "MIT",
-  "gitHead": "c85658a19b8fef0f3164c19693a45db305dc07a9"
+  "gitHead": "c85658a19b8fef0f3164c19693a45db305dc07a9",
+  "publishConfig": {
+    "registry": "https://nexus.dietfriends.kr/repository/npm-private/"
+  }
 }
