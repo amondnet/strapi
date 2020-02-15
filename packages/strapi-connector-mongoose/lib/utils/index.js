@@ -26,7 +26,6 @@ module.exports = (mongoose = Mongoose) => {
   mongoose.Types.ObjectId.prototype.valueOf = function() {
     return this.toString();
   };
-
   const convertType = attr => {
     switch (attr.type.toLowerCase()) {
       case 'array':
@@ -66,7 +65,7 @@ module.exports = (mongoose = Mongoose) => {
       case 'integer':
         return { type: 'Number' };
       case 'uuid':
-        return { type: 'ObjectId' };
+        return { type: 'UUID' };
       case 'enumeration':
         return {
           type: 'String',

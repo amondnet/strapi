@@ -1,6 +1,6 @@
 {
-  "name": "strapi-connector-mongoose",
-  "version": "3.0.0-beta.18.7",
+  "name": "@amondnet/strapi-connector-mongoose",
+  "version": "3.0.0-beta.18.7-SNAPSHOT.1",
   "description": "Mongoose hook for the Strapi framework",
   "homepage": "http://strapi.io",
   "keywords": [
@@ -20,7 +20,8 @@
     "mongoose-float": "^1.0.4",
     "mongoose-long": "^0.2.1",
     "pluralize": "^7.0.0",
-    "strapi-utils": "3.0.0-beta.18.7"
+    "strapi-utils": "3.0.0-beta.18.7",
+    "@amondnet/mongoose-uuid": "3.0.0"
   },
   "author": {
     "email": "hi@strapi.io",
@@ -36,7 +37,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/strapi/strapi.git"
+    "url": "git://github.com/amondnet/strapi.git"
   },
   "bugs": {
     "url": "https://github.com/strapi/strapi/issues"
